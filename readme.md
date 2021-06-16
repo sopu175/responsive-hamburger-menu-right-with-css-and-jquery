@@ -5,11 +5,11 @@ Fully responsive hamburger menu on the right side for mobile devices , laptop an
 
 
 
-####Add Jquery cdn in footer
+### Add Jquery cdn in footer
 
 ```<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>```
 
-####Here is the html
+### Here is the html
 
 ```<!--  hamburger section-->
 <div class="humburger" id="hambuger_menu">
@@ -50,7 +50,7 @@ Fully responsive hamburger menu on the right side for mobile devices , laptop an
 </section>
 ```
 
-####Here is the Jquery
+### Here is the Jquery
 ```    $(".menu_body__item_wrapper li.has_child").each(function (index) {
       $(this).click(function (event) {
         $('.sub-menu').eq(index).slideToggle();
@@ -65,7 +65,7 @@ Fully responsive hamburger menu on the right side for mobile devices , laptop an
     })
 ```
 
-###Style 
+### Style 
 Follow the sass folder 
 
 > Click to See the Demo  [Codepen](https://codepen.io/saif175/pen/ExWGOKz)
